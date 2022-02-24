@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 // ES6 Modules or TypeScript
 import Swal from 'sweetalert2';
 
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 // import { useNavigate } from "react-router-dom";
 // import { Navigate } from "react-router";
@@ -70,6 +70,9 @@ const Login = (props) => {
     return (
         <div className="loginContainer">
             <div className="log_border">
+                <div>
+                    <Link to="/">Registration</Link>
+                </div>
                 <div className="login">
                     <h1>Login</h1>
                 </div>

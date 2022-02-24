@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./addUser.css";
 
 import { getRegistrationRequest } from "../../redux/userRegistration/userRegistration.action";
@@ -45,9 +45,9 @@ const AddUser = () => {
     return (
         <div className="registrationContainer">
             <div className="reg_border">
-                {/* <div>
+                <div>
                     <Link to="/login" className="lgnLnk">Login</Link>
-                </div> */}
+                </div>
                 <div className="registration">
                     <h1>Registration</h1>
                 </div>
