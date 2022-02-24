@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    box-shadow: 0 5px 15px rgba(100, 95, 95, 0.568);
+    height: 4rem;
+}
+
+.ulLink{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ulLink li{
+    list-style: none;
+}
+
+.ulLink li a{
+    text-decoration: none;
+    margin: 1rem;
+}
